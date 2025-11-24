@@ -74,7 +74,11 @@ CONTENT_BY_LABEL: dict[str, dict[str, list[str]]] = {
     #   "images": ["https://.../jjampong1.jpg", "https://.../jjampong2.jpg"],
     #   "videos": ["https://youtu.be/XXXXXXXXXXX"]
     # },
-}
+    labels[0] : {"texts"} : ["중국식 냉면이 맛있어"], "images" : ["https://search.pstatic.net/common/?src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F5691%2F2022%2F07%2F10%2F0000006029_002_20220710093403167.jpg&type=sc960_832]},
+    labels[1] : {"texts"} : ["짜장면은 맛있어"], "images" : ["https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTAzMzFfMzAw%2FMDAxNzQzMzk1MTUzNjAz.-gRPE2W0CWAkFL6XB9EMAMNi2A61bwoVd0LMDE8YKjUg.QDEqbg9EkayEwNHRIkfeF1U4JDiefTk_Vz9meKzj6rMg.JPEG%2F%25B4%25EB%25C7%25A50.jpg&type=sc960_832"]},
+    labels[2] : {"texts"} : ["짬뽕은 맛있어"], "images" : ["https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzAxMjlfMjg4%2FMDAxNjc0OTc0NzkyMDk3.WJ1ZzXckG9OnY39UqGgw-v9EHHF6_Dxj1lginZe93_Eg.SQ2DCm7zlggNDZ8c3GzpefEtEqg920id2LN7XbBXHu8g.JPEG.pluusalpha%2F20230124%25A3%25DF120707.jpg&type=sc960_832"]},
+    labels[3] : {"texts"} : ["탕수육은 맛있어"], "images" : ["https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTA0MDhfNTYg%2FMDAxNzQ0MTE0NzkzMTMy.EMAfVkylmTd-jcYVVKjU0uNSSeXOG-omAvL2R6wX92Eg.fB9gzikayXGAjQ6Qjqw2bRfSf31cBxB04WK0uAlMt7wg.JPEG%2F%25B4%25D9%25BF%25EE%25B7%25CE%25B5%25E5_-_2025-04-08T211933.742.jpg&type=sc960_832
+},
 
 # ======================
 # 유틸
